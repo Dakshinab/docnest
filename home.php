@@ -150,36 +150,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     <div class="box-container">
 
-        <div class="box">
+        <a href="services/payroll.php" class="box">
             <img src="images/money.PNG" alt="">
             <h3>smart payroll management</h3>
-            
-        </div>
+        </a>
 
-        <div class="box">
+        <a href="services/recruitment.php" class="box">
             <img src="images/work.PNG" alt="">
             <h3>recruitment & onboard solutions</h3>
-        </div>
+        </a>
 
-        <div class="box">
+        <a href="services/cida.php" class="box">
             <img src="images/blocks.PNG" alt="">
             <h3>CIDA fast track</h3>
-        </div>
+        </a>
 
-        <div class="box">
+        <a href="services/building.php" class="box">
             <img src="images/build.PNG" alt="">
             <h3>Building Projects</h3>
-        </div>
+        </a>
 
-        <div class="box">
+        <a href="services/hr.php" class="box">
             <img src="images/user.PNG" alt="">
             <h3>Human Resource management</h3>
-        </div>
+        </a>
 
-        <div class="box">
+        <a href="services/it.php" class="box">
             <img src="images/computer.PNG" alt="">
             <h3>Information Technology</h3>
-        </div>
+        </a>
     </div>
     <div class="services-more-btn">
         <a href="services.php" class="btn">more details</a>
@@ -223,8 +222,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             </div>
             <div class="content">
                 <h3>CEO</h3>
-                <p>Our CEO drives the company’s vision, ensuring innovation and growth. With strong leadership, they guide strategic decisions and inspire the entire team toward long-term success.</p>
-                <a href="about.php" class="btn"> More</a>
+                <p>Our CEO drives the company's vision, ensuring innovation and growth. With strong leadership, they guide strategic decisions and inspire the entire team toward long-term success.</p>
+                <a href="about.php#our-team" class="btn"> More</a>
             </div>
         </div>
 
@@ -235,7 +234,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <div class="content">
                 <h3>Project manager</h3>
                 <p>The Project Manager oversees planning, execution, and delivery of key projects. They coordinate teams, manage timelines, and ensure every task meets quality standards and client expectations.</p>
-                <a href="about.php" class="btn"> More</a>
+                <a href="about.php#our-team" class="btn"> More</a>
             </div>
         </div>
 
@@ -246,7 +245,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <div class="content">
                 <h3>Executive</h3>
                 <p>An Executive supports core operations and decision-making. They handle key communications, assist leadership, and ensure smooth execution of day-to-day business functions across departments.</p>
-                <a href="about.php" class="btn"> More</a>
+                <a href="about.php#our-team" class="btn"> More</a>
             </div>
         </div>
 
@@ -257,7 +256,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <div class="content">
                 <h3>HR consultant</h3>
                 <p>Expert in organizational development, workforce strategy, and compliance advisory services.</p>
-                <a href="about.php" class="btn"> More</a>
+                <a href="about.php#our-team" class="btn"> More</a>
             </div>
         </div>
 
@@ -268,7 +267,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <div class="content">
                 <h3>Software architect</h3>
                 <p>Designs scalable systems and leads full-stack development for enterprise solutions.</p>
-                <a href="about.php" class="btn"> More</a>
+                <a href="about.php#our-team" class="btn"> More</a>
             </div>
         </div>
 
@@ -279,7 +278,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <div class="content">
                 <h3>Site engineer</h3>
                 <p>Oversees on-site construction, quality control, and safety compliance on building projects.</p>
-                <a href="about.php" class="btn"> More</a>
+                <a href="about.php#our-team" class="btn"> More</a>
             </div>
         </div>
 

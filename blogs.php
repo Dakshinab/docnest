@@ -42,7 +42,7 @@
     <div id="menu-btn" class="fas fa-bars"></div>
 </section>
 
-<section class="heading" style="background:url(images/safari.JPEG) no-repeat">
+<section class="heading" style="background:url(images/blog.jpg) no-repeat">
     <h1>our blogs</h1>
 </section>
 
@@ -50,6 +50,41 @@
     <div class="content">
         <h3>industry insights</h3>
         <p>Read our expert articles on tourism, HR transformation, digital tools, and sustainable development. Stay informed and inspired with the latest from Docnest.</p>
+    </div>
+</section>
+
+<!-- blogs grid -->
+<section class="blogs-section">
+    <div class="blogs-container">
+        <!-- Blog 1 -->
+        <div class="blog-card">
+            <div class="blog-header">
+                <h3>5 Key Trends in HR Transformation 2024</h3>
+                <span class="blog-date"><i class="fas fa-calendar"></i> December 1, 2024</span>
+            </div>
+            <p>Explore the latest trends reshaping the HR landscape: AI-powered recruitment, flexible work models, employee wellness programs, and data-driven decision making. Learn how to adapt your organization for success.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog-card">
+            <div class="blog-header">
+                <h3>Sustainable Tourism: A Path Forward</h3>
+                <span class="blog-date"><i class="fas fa-calendar"></i> November 25, 2024</span>
+            </div>
+            <p>Discover how sustainable tourism practices benefit both businesses and communities. From eco-friendly accommodations to responsible travel experiences, learn best practices for creating lasting positive impact.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+            <div class="blog-header">
+                <h3>Digital Transformation in Construction</h3>
+                <span class="blog-date"><i class="fas fa-calendar"></i> November 18, 2024</span>
+            </div>
+            <p>BIM technology, project management software, and IoT sensors are revolutionizing construction. Understand how digital tools improve efficiency, reduce costs, and enhance safety on building sites.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
     </div>
 </section>
 

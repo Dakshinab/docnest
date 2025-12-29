@@ -53,6 +53,50 @@
     </div>
 </section>
 
+<!-- projects grid -->
+<section class="projects-section">
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-header">
+                <h3>HR Digitization Initiative</h3>
+                <span class="project-category">Human Resources</span>
+            </div>
+            <p>Implemented comprehensive HR management system for a leading manufacturing company. Automated payroll, leave management, and employee performance tracking, resulting in 40% efficiency improvement.</p>
+            <div class="project-details">
+                <span><i class="fas fa-calendar"></i> 2024</span>
+                <span><i class="fas fa-check-circle"></i> Completed</span>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Tourism App Development</h3>
+                <span class="project-category">Information Technology</span>
+            </div>
+            <p>Built a mobile and web application for a tourism company to streamline booking, itinerary management, and customer communication. Features real-time availability and integrated payment gateway.</p>
+            <div class="project-details">
+                <span><i class="fas fa-calendar"></i> 2023-2024</span>
+                <span><i class="fas fa-check-circle"></i> Completed</span>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Commercial Building Project</h3>
+                <span class="project-category">Construction</span>
+            </div>
+            <p>Project management and site engineering oversight for a 15-story commercial complex in Colombo. Delivered on schedule with full compliance to building codes and safety standards.</p>
+            <div class="project-details">
+                <span><i class="fas fa-calendar"></i> 2022-2024</span>
+                <span><i class="fas fa-check-circle"></i> Completed</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--footer section start-->
 
 <section class="footer">

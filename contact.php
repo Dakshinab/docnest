@@ -42,16 +42,67 @@
     <div id="menu-btn" class="fas fa-bars"></div>
 </section>
 
-<section class="heading" style="background:url(images/beach.JPG) no-repeat">
+<section class="heading" style="background:url(images/contact.jpg) no-repeat">
     <h1>contact us</h1>
 </section>
 
-<section class="home-about">
-    <div class="content">
-        <h3>reach out</h3>
-        <p>Have a question or proposal? We’d love to hear from you. Contact us via email, phone, or social media. We respond quickly and are happy to assist with any inquiries.</p>
-        <p>Email: your@email.com</p>
-        <p>Phone: +123 456 7890</p>
+<section class="contact-section">
+    <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have a question or ready to start your next project? Reach out to us and our team will respond within 24 hours.</p>
+            
+            <div class="info-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4>Address</h4>
+                    <p>123 Business Park, Colombo 04, Sri Lanka</p>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+94 (0) 11 223 4567</p>
+                    <p>+94 (0) 76 123 4567</p>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4>Email</h4>
+                    <p>info@docnest.lk</p>
+                    <p>support@docnest.lk</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" class="input-box" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" class="input-box" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" class="input-box" required>
+                </div>
+                
+                <div class="form-group">
+                    <textarea placeholder="Your Message" class="input-box" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
     </div>
 </section>
 

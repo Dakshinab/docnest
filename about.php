@@ -77,6 +77,7 @@
     <div class="box-container">
 
         <div class="box">
+            <i class="fas fa-eye vision-icon" aria-hidden="true"></i>
             <h3>Our Vision</h3>
             <p>
                 <b>To become a leading force in consulting by empowering organizations with innovative, practical, and sustainable solutions across multiple industries.</b>
@@ -84,6 +85,7 @@
         </div>
 
         <div class="box">
+            <i class="fas fa-bullseye mission-icon" aria-hidden="true"></i>
             <h3>Our Mission</h3>
             <p>
                 <b>To deliver expert guidance, foster growth, and drive measurable success for our clients by combining professionalism, creativity, and integrity.</b>
@@ -94,7 +96,7 @@
 </section>
 
   <!--teams start-->
-<section class="our-team">
+<section class="our-team" id="our-team">
 
     <h1 class="heading-title"> Our Team </h1>
 
@@ -246,6 +248,9 @@
       </div>
       <!-- Pagination -->
       <div class="swiper-pagination"></div>
+            <!-- Navigation buttons for reviews slider -->
+            <div class="swiper-button-prev reviews-prev" aria-label="Previous review"></div>
+            <div class="swiper-button-next reviews-next" aria-label="Next review"></div>
     </div>
   </section>
 <!--feedbacks end-->
